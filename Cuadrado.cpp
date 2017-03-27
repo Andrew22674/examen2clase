@@ -1,7 +1,6 @@
 #include "Cuadrado.h"
 
 Cuadrado::Cuadrado(){
-  cout << "Hola" << endl;
   nombre = "Cuadrado";
   base = 10;
   altura = 10;

@@ -1,3 +1,5 @@
+#include "Circulo.h"
+
 Circulo::Circulo(){
   nombre = "Circulo";
   radio = 5;
@@ -16,5 +18,5 @@ double Circulo::Area(){
 }
 
 Circulo::~Circulo(){
-  
+
 }

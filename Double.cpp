@@ -12,6 +12,7 @@ double Double::getValor(){
   return valor;
 }
 
+
 Double::~Double(){
-  
+
 }

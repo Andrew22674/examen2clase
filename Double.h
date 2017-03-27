@@ -19,6 +19,7 @@ double operator+(double valor){
   return this -> valor + valor;
 }
 
+
 //recibe objeto Double y retorna double
 double operator-(Double* valor){
   return this -> valor - valor -> getValor();
@@ -27,6 +28,8 @@ double operator-(Double* valor){
 double operator-(double valor){
   return this -> valor - valor;
 }
+
+
 
 virtual ~Double();
 };

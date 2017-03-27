@@ -1,14 +1,16 @@
 #pragma once
 
+#include <iostream>
 #include <string>
 
+using namespace std;
 
 class Figura{
-private:
+protected:
   string nombre;
 public:
   Figura();
-  Figura(string, double);
+  Figura(string);
   virtual string toString();
   virtual double Area();
 

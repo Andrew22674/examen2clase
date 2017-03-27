@@ -10,6 +10,8 @@ public:
   Circulo();
   Circulo(string, double);
 
+  string toString();
+  double Area();
 
   virtual ~Circulo();
 };

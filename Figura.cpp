@@ -1,7 +1,7 @@
 #include "Figura.h"
 
 Figura::Figura(){
-  valor = 0;
+
 }
 
 Figura::Figura(string nombre){
@@ -17,5 +17,5 @@ double Figura::Area(){
 }
 
 Figura::~Figura(){
-  
+
 }
